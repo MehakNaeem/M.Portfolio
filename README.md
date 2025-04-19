@@ -1,17 +1,17 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mehak Naeem | Technical Writing Portfolio</title>
+  <title>Mehak Naeem | Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background-color: #f8f9fa;
+      background-color: #ffffff;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .header-bg {
-      background-color: #2f80ed;
+      background: linear-gradient(to right, #2f80ed, #56ccf2);
       color: white;
     }
     .portfolio-item:hover {
@@ -28,15 +28,43 @@
     footer {
       background-color: #2f80ed;
       color: white;
-      padding: 1rem 0;
-      margin-top: 3rem;
+      padding: 1.5rem 0;
+      margin-top: 4rem;
+    }
+    nav {
+      background-color: #ffffff;
+      border-bottom: 1px solid #ddd;
+    }
+    nav .nav-link {
+      color: #2f80ed;
+      font-weight: 500;
+    }
+    nav .nav-link:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#">Mehak Naeem</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <header class="py-5 text-center header-bg">
     <div class="container">
-      <h1 class="display-4">Mehak Naeem</h1>
+      <h1 class="display-4 fw-semibold">Mehak Naeem</h1>
       <p class="lead">Technical Writer | Medical Content Creator | Freelance Specialist</p>
     </div>
   </header>
@@ -44,8 +72,8 @@
   <main class="container my-5">
     <section id="about" class="mb-5">
       <h2 class="text-primary">About Me</h2>
-      <p>I’m Mehak Naeem, a dynamic and versatile technical writer with a Doctor of Physical Therapy degree and a passion for delivering impactful, research-based, and reader-friendly content. I've worked across niches like health, wellness, fashion, tech, kitchenware, and lifestyle.</p>
-      <p>I translate complex ideas into clear, engaging content. Let’s turn your message into something meaningful.</p>
+      <p>Hello! I'm <strong>Mehak Naeem</strong> — a curious, creative, and detail-driven professional with a Doctor of Physical Therapy degree and a deep love for words. I blend scientific precision with storytelling flair, transforming technical topics into digestible, engaging content.</p>
+      <p>Over the past two years, I’ve worked with diverse clients across the globe, writing for industries including health, wellness, fashion, technology, kitchenware, and lifestyle. I’m passionate about helping people, solving problems with words, and continuously growing through learning and writing.</p>
     </section>
 
     <section id="portfolio" class="mb-5">
@@ -56,7 +84,7 @@
           <div class="card h-100 shadow-sm portfolio-item">
             <div class="card-body">
               <h5 class="card-title"><a href="https://medium.com/@mehaknaeem20/9-major-signs-of-depression-you-must-acknowledge-aafceab448c1" target="_blank">9 Major Signs of Depression</a></h5>
-              <p class="card-text">Published on Medium | Raising awareness about mental health.</p>
+              <p class="card-text">Mental health awareness article published on Medium.</p>
             </div>
           </div>
         </div>
@@ -65,7 +93,7 @@
           <div class="card h-100 shadow-sm portfolio-item">
             <div class="card-body">
               <h5 class="card-title"><a href="https://medium.com/@mehaknaeem20/zendaya-makeup-look-wanna-know-the-secret-f9b8d7956a85" target="_blank">Zendaya Makeup Look</a></h5>
-              <p class="card-text">Published on Medium | A fun and stylish beauty piece.</p>
+              <p class="card-text">A stylish breakdown of celebrity beauty trends.</p>
             </div>
           </div>
         </div>
@@ -74,7 +102,7 @@
           <div class="card h-100 shadow-sm portfolio-item">
             <div class="card-body">
               <h5 class="card-title"><a href="https://medium.com/@mehaknaeem20/best-dog-food-must-buy-and-try-28be0e13d9a7" target="_blank">Best Dog Food</a></h5>
-              <p class="card-text">Published on Medium | A helpful guide for pet owners.</p>
+              <p class="card-text">Helpful product guide for pet parents.</p>
             </div>
           </div>
         </div>
@@ -82,8 +110,8 @@
         <div class="col">
           <div class="card h-100 shadow-sm portfolio-item">
             <div class="card-body">
-              <h5 class="card-title">Client Work – What Is Reiki?</h5>
-              <p class="card-text">Wellness content explaining the origins and benefits of Reiki therapy.</p>
+              <h5 class="card-title">What Is Reiki? (Client Work)</h5>
+              <p class="card-text">Wellness content on Reiki therapy and healing.</p>
               <a href="What%20Is%20Reiki.pdf" class="btn btn-custom" target="_blank">Download PDF</a>
             </div>
           </div>
@@ -92,8 +120,8 @@
         <div class="col">
           <div class="card h-100 shadow-sm portfolio-item">
             <div class="card-body">
-              <h5 class="card-title">Client Work – Free-Standing Microwaves</h5>
-              <p class="card-text">Tech product review for home appliance shoppers.</p>
+              <h5 class="card-title">Free-Standing Microwaves (Client Work)</h5>
+              <p class="card-text">Tech product review for kitchen appliances.</p>
               <a href="Top%206%20Best%20Free.pdf" class="btn btn-custom" target="_blank">Download PDF</a>
             </div>
           </div>
@@ -102,8 +130,8 @@
         <div class="col">
           <div class="card h-100 shadow-sm portfolio-item">
             <div class="card-body">
-              <h5 class="card-title">Client Work – Wedding Dress Colors</h5>
-              <p class="card-text">Fashion piece exploring wedding color trends.</p>
+              <h5 class="card-title">Wedding Dress Colors (Client Work)</h5>
+              <p class="card-text">Fashion writing for modern brides and designers.</p>
               <a href="149-%20MEHAK%20-%20Best%20Colors%20for%20Wedding%20Dresses.pdf" class="btn btn-custom" target="_blank">Download PDF</a>
             </div>
           </div>
@@ -112,8 +140,8 @@
         <div class="col">
           <div class="card h-100 shadow-sm portfolio-item">
             <div class="card-body">
-              <h5 class="card-title">Client Work – Why Car Radio Won’t Turn Off</h5>
-              <p class="card-text">Technical troubleshooting article for automotive issues.</p>
+              <h5 class="card-title">Why Car Radio Won’t Turn Off (Client Work)</h5>
+              <p class="card-text">Troubleshooting guide for common car issues.</p>
               <a href="1.%20Why%20Car%20Radio%20Won.pdf" class="btn btn-custom" target="_blank">Download PDF</a>
             </div>
           </div>
@@ -122,8 +150,8 @@
         <div class="col">
           <div class="card h-100 shadow-sm portfolio-item">
             <div class="card-body">
-              <h5 class="card-title">Client Work – How to Plan a Vacation</h5>
-              <p class="card-text">Step-by-step guide for planning stress-free trips.</p>
+              <h5 class="card-title">How to Plan a Vacation (Client Work)</h5>
+              <p class="card-text">Travel content to make your next trip stress-free.</p>
               <a href="2.%20How%20to%20Plan%20a%20Vacation.pdf" class="btn btn-custom" target="_blank">Download PDF</a>
             </div>
           </div>
@@ -152,7 +180,9 @@
   </main>
 
   <footer class="text-center">
-    <p>&copy; 2025 Mehak Naeem. All rights reserved.</p>
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Mehak Naeem. All rights reserved.</p>
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
